@@ -146,7 +146,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.30);
+	background-color: rgba(69, 23, 105, 0.30);
 	content: "";
 }
 .banner-caption {
@@ -321,7 +321,7 @@ padding: 70px 0;
 .banner-caption h4,
 .banner-caption h5,
 .banner-caption h6 {
-	color: #ffffff;
+	color: #F62C2C;
 }
 .banner-caption h1 {
 	font-size: 60px;
