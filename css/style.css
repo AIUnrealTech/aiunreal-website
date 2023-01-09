@@ -84,6 +84,12 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+img-circle {
+	max-width: 200px;
+    display: inline;
+}
+
 #about-us-image {
 	border-radius: 50px 50px 50px 50px;
 }
