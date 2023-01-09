@@ -336,7 +336,7 @@
 										  <div class="member-container" data-wow-delay=".1s">
 											  <div class="inner-container">
 												  <div class="author-avatar">									
-													  <img class="img-circle" src="images/garvit-team.jpg" alt="Team Member">
+													  <img class="img-circle" src="images/garvit-team.jpg" alt="Team Member" style="max-width: 75%;height: auto;">
 												  </div><!-- /.author-avatar -->
 		  
 												  <div class="member-details">
@@ -369,7 +369,7 @@
 										  <div class="member-container" data-wow-delay=".3s">
 											  <div class="inner-container">
 												  <div class="author-avatar">									
-													  <img class="img-circle" src="images/atharv-team.JPG" alt="Team Menber">
+													  <img class="img-circle" src="images/atharv-team.JPG" alt="Team Menber" style="max-width: 75%;height: auto;">
 												  </div><!-- /.author-avatar -->
 												  <div class="member-details">
 													  <div class="member-top">									
@@ -399,8 +399,9 @@
 									  <div class="member wow bounceInUp animated" >
 										  <div class="member-container" data-wow-delay=".5s">
 											  <div class="inner-container">
-												  <div class="author-avatar">									
-													  <img class="img-circle" src="images/rutwik-team.jpeg" alt="Team Menber">
+												  <div class="author-avatar">
+												  <br></br>									
+													  <img class="img-circle" src="images/rutwik-team.jpg" alt="Team Menber" style="max-width: 75%;height: auto;">
 												  </div><!-- /.author-avatar -->
 												  <div class="member-details">
 													  <div class="member-top">									
@@ -1109,7 +1110,7 @@
 						
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" id="footer-form" method="POST" data-netlify="true">
+								<form role="form" id="footer-form" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
 										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
@@ -1125,6 +1126,7 @@
 										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
+									<div data-netlify-recaptcha="true"></div>
 									<input type="submit" value="Send" class="btn btn-default">
 								</form>
 							</div>
