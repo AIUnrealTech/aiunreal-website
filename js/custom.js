@@ -6,7 +6,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.png');
+		$(".banner-image").backstretch('images/banner-new.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
