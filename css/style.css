@@ -152,7 +152,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(69, 23, 105, 0.30);
+	/* background-color: rgba(69, 23, 105, 0.30); */
 	content: "";
 }
 .banner-caption {
@@ -267,13 +267,13 @@ button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.ct
 background: transparent;
 }
 button.cta-button {
-font-size: 16px;
+font-size: 18px;
 line-height: 16px;
 border: 2px solid #F62C2C;
 padding: 20px 42px;
 border-radius: 4px;
 font-family: 'Raleway';
-font-weight: 600;
+font-weight: 900;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
 }
@@ -327,7 +327,7 @@ padding: 70px 0;
 .banner-caption h4,
 .banner-caption h5,
 .banner-caption h6 {
-	color: #F62C2C;
+	color: #e69393;
 }
 .banner-caption h1 {
 	font-size: 60px;
