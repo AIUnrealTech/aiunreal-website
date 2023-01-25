@@ -32,7 +32,7 @@
 		
 	   $('#quote-carousel').carousel({
 		 pause: true,
-		 interval: 4000,
+		 interval: 8000,
 	   });
 		//Scroll Spy
 		//-----------------------------------------------
