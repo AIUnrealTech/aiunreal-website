@@ -7,14 +7,21 @@
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-	font-family: sans-serif;
+	font-family: serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%
 }
 
 body {
-	margin: 0
-}
+	font-family: 'Georgia', serif !important;
+	margin: 0;
+	font-size: 16px !important;
+  }
+
+p {
+	text-align: justify !important; 
+ }
+ 
 
 aside,
 details,
@@ -233,7 +240,7 @@ html {
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "serif", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
@@ -278,8 +285,51 @@ img {
 }
 
 .img-circle {
-	border-radius: 50%
+	border-radius: 50%;
+	max-width: 50% !important;
+	margin-left: 30%;
 }
+
+.member-details {
+	text-align: center;
+}
+
+.name, .designation {
+	background: -webkit-linear-gradient(#f8363d, #8c6e65);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+ 
+ /*------------------------------------------------------------------*/ 
+
+
+ .section-headings {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-unstyled li {
+    line-height: 1.5;
+    color: #828282;
+    margin-bottom: 1rem;
+}
+
+.list-unstyled li i {
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+    color: #0275d8;
+}
+
+
+ /*-------------------------------------------------------------------------*/ 
 
 .sr-only {
 	position: absolute;
