@@ -146,6 +146,11 @@ table {
 	border-collapse: collapse
 }
 
+.swiper-slide .swiper-slide-active{
+	background-color: #f2f3f9;
+}
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
 
