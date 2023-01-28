@@ -28,6 +28,50 @@ font-family:serif;
 -ms-text-size-adjust:100%
 }
 
+/* ------------------------------------------------------------------------- */
+
+/* Default image size */
+.banner-image {
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Image size for small devices (portrait phones, 576px and up) */
+@media (min-width: 576px) {
+    .banner-image {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* Image size for medium devices (landscape phones, 768px and up) */
+@media (min-width: 768px) {
+    .banner-image {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* Image size for large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .banner-image {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* Image size for extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .banner-image {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
 body {
 font-family:'Georgia',serif!important;
 margin:0;
@@ -99,6 +143,10 @@ button[disabled],html input[disabled] {
 cursor:default
 }
 
+.same-bg{
+	background-color: white;
+}
+
 button::-moz-focus-inner,input::-moz-focus-inner {
 padding:0;
 border:0
@@ -137,10 +185,6 @@ overflow:auto
 table {
 border-spacing:0;
 border-collapse:collapse
-}
-
-.swiper-slide .swiper-slide-active {
-background-color:#f2f3f9
 }
 
 @media print {
@@ -6149,7 +6193,7 @@ transition:all .2s ease-in-out
 }
 
 .banner {
-margin-top: 100px;
+/* margin-top: 100px;*/
 z-index: 0;
 width:100%;
 height:100%;
@@ -6159,12 +6203,13 @@ color:#f62c2c
 }
 
 .banner-image {
+background-size: cover;
 vertical-align:middle;
 min-height:100%;
 width:100%
 }
 
-.banner:after {
+/* .banner:after {
 position:absolute;
 top:0;
 left:0;
@@ -6178,7 +6223,7 @@ position:absolute;
 top:50%;
 width:100%;
 z-index:2
-}
+} */
 
 .subfooter {
 background-color:#000;
