@@ -6,7 +6,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner-new1.jpg');
+		$(".banner-image").backstretch('images/banner-new2.png');
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -100,6 +100,7 @@
 				});
 			});
 		};
+
 
 		//Modal
 		//-----------------------------------------------
