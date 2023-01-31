@@ -74,6 +74,12 @@ font-family:serif;
 	}
   }
 
+@media (max-width: 767px) {
+	.navbar {
+	background-color: black;
+	}
+}
+
 
 
 /* -------------------------------------------------------------------------- */
