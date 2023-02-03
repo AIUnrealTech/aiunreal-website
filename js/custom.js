@@ -6,7 +6,8 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner-3.jpg'); 
+		$(".banner-image").backstretch('images/banner-3.webp');
+ 
 		
 		// Fixed header
 		//-----------------------------------------------
