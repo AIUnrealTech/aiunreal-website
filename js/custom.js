@@ -5,7 +5,7 @@
 
 (function($){
 	$(document).ready(function(){
-	
+			
 		$(".banner-image").backstretch('images/banner-3.webp');
  
 		
